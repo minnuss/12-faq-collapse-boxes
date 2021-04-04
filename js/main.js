@@ -15,7 +15,7 @@
 // });
 
 
-// SIMPLE CODE THEN PREVIOUS
+// SIMPLER CODE THEN PREVIOUS
 const toggle = document.querySelectorAll('.faq__content__box i');
 
 toggle.forEach(btn => {
