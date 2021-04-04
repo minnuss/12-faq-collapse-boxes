@@ -108,12 +108,20 @@ body {
       }
     }
 
+    &__box::before,
+    &__box::after {
+      content: '\f075';
+      position: absolute;
+      opacity: 0;
+      transition: opacity 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+    }
+
     &__box.active::before,
     &__box.active::after {
       content: '\f075';
       font-family: 'Font Awesome 5 Free';
       color: #1e90ff;
-      font-size: 7rem;
+      font-size: 9rem;
       position: absolute;
       top: 0;
       left: 30px;
